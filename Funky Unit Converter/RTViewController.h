@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface RTViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *numOfBillsLabel;
+@property (strong, nonatomic) IBOutlet UILabel *numOfBillsTextField;
+- (IBAction)convertUnits:(UIButton *)sender;
+
+@property (strong, nonatomic) IBOutlet UILabel *BlankLabel;
 
 @end
